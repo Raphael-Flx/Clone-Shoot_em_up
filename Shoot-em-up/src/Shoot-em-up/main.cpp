@@ -47,7 +47,7 @@ int main(int argc, char* argv[])
     GameManager::Get()->Launch();
     GameManager::Get()->Shutdown();
 
-    
+    Mix_CloseAudio();
     SDL_DestroyRenderer(renderer);
     SDL_DestroyWindow(window);
     SDL_Quit();
