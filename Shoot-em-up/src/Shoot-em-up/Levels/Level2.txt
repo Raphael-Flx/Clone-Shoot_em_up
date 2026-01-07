@@ -1,0 +1,4 @@
+-FFF------D---FF----F---R-FFF--R-F-F-F-FFF--DF-FF-R--F---R-FFF--R-F-F-F----
+---------D----DF---R-----D---R-FDF-R-D-F-R--D----DF---R---D---R-FDF-R-D----
+-----FFF----D--D---R----D-R---FR-D-FFF-D-R--F-D--D---R----D-R--FR-D-FFF----
+---------D----F-----FD---FF--R-DFD-R-D-D-R--FF-R--F--FD---FF--R-DFD-R-D----

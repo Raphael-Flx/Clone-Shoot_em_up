@@ -1,0 +1,21 @@
+{
+  "projects": {
+    "Shoot-em-up": {
+      "additionalDependencies": [ "SDL2.lib", "SDL2main.lib", "SDL2_ttf.lib", "SDL2_image.lib", "SDL2_Mixer.lib" ],
+      "additionalIncludeDirectories": [ "../../lib/SDL2/include" ],
+      "additionalLibraryDirectories": [ "../../lib/SDL2/lib/x64" ],
+      "dependencies": [],
+      "dependents": [],
+      "guid": "3F487B02-6DA4-25BA-0935-487966C06C24",
+      "lib": false,
+      "pch": false,
+      "preprocessorDefinitions": [],
+      "vcpkg": false,
+      "window": false
+    }
+  },
+  "solution_guid": "6F91623A-1542-468E-5130-1CAA634A12B4",
+  "solution_name": "lyo-1-amstrad-s1p6-06",
+  "startup_project": "Shoot-em-up",
+  "version": "1.17.4"
+}
