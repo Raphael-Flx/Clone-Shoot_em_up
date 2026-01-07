@@ -682,6 +682,7 @@ void GameManager::GameOver()
         if (InputManager::Get()->IsKeyDown(SDL_SCANCODE_RETURN))
         {
             show = false;
+            Shutdown();
             Init(_renderer);
         }
         else if (InputManager::Get()->IsKeyDown(SDL_SCANCODE_ESCAPE))
@@ -751,6 +752,7 @@ void GameManager::GameWon()
         if (InputManager::Get()->IsKeyDown(SDL_SCANCODE_RETURN))
         {
             show = false;
+            Shutdown();
             Init(_renderer);
         }
         else if (InputManager::Get()->IsKeyDown(SDL_SCANCODE_ESCAPE))
@@ -771,8 +773,6 @@ void GameManager::Shutdown()
         delete _parallaxes[i];
         _parallaxes.erase(_parallaxes.begin() + i);
     }
-
-    Mix_CloseAudio();
 }
 
 GameObject* GameManager::GetPlayer()
